@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		536D38B627A63F1C00B00B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536D38B527A63F1C00B00B1C /* AppDelegate.swift */; };
+		536D38BC27A63F1C00B00B1C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536D38BB27A63F1C00B00B1C /* GameScene.swift */; };
+		536D38BE27A63F1C00B00B1C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536D38BD27A63F1C00B00B1C /* GameViewController.swift */; };
+		536D38C127A63F1C00B00B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536D38BF27A63F1C00B00B1C /* Main.storyboard */; };
+		536D38C327A63F1E00B00B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 536D38C227A63F1E00B00B1C /* Assets.xcassets */; };
+		536D38C627A63F1E00B00B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536D38C427A63F1E00B00B1C /* LaunchScreen.storyboard */; };
+		536D38CD27A6F6FC00B00B1C /* CollectorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536D38CC27A6F6FC00B00B1C /* CollectorNode.swift */; };
+		536D38CF27A6FAD600B00B1C /* CoinEmitterNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536D38CE27A6FAD600B00B1C /* CoinEmitterNode.swift */; };
+		536D38D127A6FD3500B00B1C /* CoinNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536D38D027A6FD3500B00B1C /* CoinNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		536D38B227A63F1C00B00B1C /* CoinVortex2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinVortex2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		536D38B527A63F1C00B00B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		536D38BB27A63F1C00B00B1C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		536D38BD27A63F1C00B00B1C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		536D38C027A63F1C00B00B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		536D38C227A63F1E00B00B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		536D38C527A63F1E00B00B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		536D38CC27A6F6FC00B00B1C /* CollectorNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectorNode.swift; sourceTree = "<group>"; };
+		536D38CE27A6FAD600B00B1C /* CoinEmitterNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinEmitterNode.swift; sourceTree = "<group>"; };
+		536D38D027A6FD3500B00B1C /* CoinNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		536D38AF27A63F1C00B00B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		536D38A927A63F1C00B00B1C = {
+			isa = PBXGroup;
+			children = (
+				536D38B427A63F1C00B00B1C /* CoinVortex2 */,
+				536D38B327A63F1C00B00B1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		536D38B327A63F1C00B00B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536D38B227A63F1C00B00B1C /* CoinVortex2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		536D38B427A63F1C00B00B1C /* CoinVortex2 */ = {
+			isa = PBXGroup;
+			children = (
+				536D38B527A63F1C00B00B1C /* AppDelegate.swift */,
+				536D38BD27A63F1C00B00B1C /* GameViewController.swift */,
+				536D38BB27A63F1C00B00B1C /* GameScene.swift */,
+				536D38CC27A6F6FC00B00B1C /* CollectorNode.swift */,
+				536D38CE27A6FAD600B00B1C /* CoinEmitterNode.swift */,
+				536D38D027A6FD3500B00B1C /* CoinNode.swift */,
+				536D38BF27A63F1C00B00B1C /* Main.storyboard */,
+				536D38C227A63F1E00B00B1C /* Assets.xcassets */,
+				536D38C427A63F1E00B00B1C /* LaunchScreen.storyboard */,
+			);
+			path = CoinVortex2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		536D38B127A63F1C00B00B1C /* CoinVortex2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536D38C927A63F1E00B00B1C /* Build configuration list for PBXNativeTarget "CoinVortex2" */;
+			buildPhases = (
+				536D38AE27A63F1C00B00B1C /* Sources */,
+				536D38AF27A63F1C00B00B1C /* Frameworks */,
+				536D38B027A63F1C00B00B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinVortex2;
+			productName = CoinVortex2;
+			productReference = 536D38B227A63F1C00B00B1C /* CoinVortex2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		536D38AA27A63F1C00B00B1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					536D38B127A63F1C00B00B1C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 536D38AD27A63F1C00B00B1C /* Build configuration list for PBXProject "CoinVortex2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 536D38A927A63F1C00B00B1C;
+			productRefGroup = 536D38B327A63F1C00B00B1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				536D38B127A63F1C00B00B1C /* CoinVortex2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		536D38B027A63F1C00B00B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536D38C127A63F1C00B00B1C /* Main.storyboard in Resources */,
+				536D38C327A63F1E00B00B1C /* Assets.xcassets in Resources */,
+				536D38C627A63F1E00B00B1C /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		536D38AE27A63F1C00B00B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536D38D127A6FD3500B00B1C /* CoinNode.swift in Sources */,
+				536D38BC27A63F1C00B00B1C /* GameScene.swift in Sources */,
+				536D38CD27A6F6FC00B00B1C /* CollectorNode.swift in Sources */,
+				536D38BE27A63F1C00B00B1C /* GameViewController.swift in Sources */,
+				536D38B627A63F1C00B00B1C /* AppDelegate.swift in Sources */,
+				536D38CF27A6FAD600B00B1C /* CoinEmitterNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		536D38BF27A63F1C00B00B1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536D38C027A63F1C00B00B1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		536D38C427A63F1E00B00B1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536D38C527A63F1E00B00B1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		536D38C727A63F1E00B00B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		536D38C827A63F1E00B00B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		536D38CA27A63F1E00B00B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.aerickson.CoinVortex2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		536D38CB27A63F1E00B00B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.aerickson.CoinVortex2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		536D38AD27A63F1C00B00B1C /* Build configuration list for PBXProject "CoinVortex2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536D38C727A63F1E00B00B1C /* Debug */,
+				536D38C827A63F1E00B00B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536D38C927A63F1E00B00B1C /* Build configuration list for PBXNativeTarget "CoinVortex2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536D38CA27A63F1E00B00B1C /* Debug */,
+				536D38CB27A63F1E00B00B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 536D38AA27A63F1C00B00B1C /* Project object */;
+}
